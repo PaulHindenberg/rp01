@@ -1,0 +1,28 @@
+    <div class="row">
+
+        <div class="span4">
+            <div>
+                <button class="btn" style="float: left;"><a ui-sref="main.review">main.review</a></button>
+                <button class="btn"><a ui-sref="main.issues">main.issues</a></button>
+                <button class="btn"><a ui-sref="main.exhibits">main.exhibits</a></button>
+                <button class="btn"><a ui-sref="main.notes">main.notes</a></button>
+            </div>
+            <div ui-view></div>
+        </div>
+
+        <div class="span8">
+
+            <div style="width: 100%; display: inline;">
+                <div style="float: left;">
+                    <p>Deponent: {{affair.deponent}}</p>
+                    <p>Case Name: {{affair.titel}}</p>
+                </div>
+                <div style="float: right;">
+                    <p>Date: {{affair.date.date}}</p>
+                    <p>Volume: {{affair.volume}}</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>

@@ -1,0 +1,56 @@
+h1, h2, h3, h4, h5 {
+    text-align: center;
+}
+
+button {
+    margin-bottom: 0px !important;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1170px;
+    }
+
+    .row {
+        max-width: 1170px;
+    }
+}
+
+.datagrid table {
+    border-collapse: collapse;
+    text-align: left;
+    width: 100%;
+}
+
+.datagrid {
+    font: normal 12px/150% Arial, Helvetica, sans-serif;
+    background: #fff;
+    overflow: hidden;
+}
+
+.datagrid table td, .datagrid table th {
+    padding: 0px 10px;
+}
+
+.datagrid table tbody td {
+    color: #7D7D7D;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.datagrid table tbody .alt td {
+    background: #EBEBEB;
+    color: #7D7D7D;
+}
+
+.datagrid table tbody td:first-child {
+    border-left: none;
+}
+
+.datagrid table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.foundLine {
+    background-color: red;
+}
